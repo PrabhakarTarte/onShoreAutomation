@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Guest Checkout,EGC Checkout]">
+  <test name="Guest Checkout with Promo 5OFF + Sample + Cart Special + EGC(failed)">
+    <classes>
+      <class name="com.tarte.script.Guestcheckout2$GuestTest">
+        <methods>
+          <include name="Guest_FRANCE_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_CANADA_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_SINGAPORE_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_GERMANY_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_UNITERARABEMIRATES_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_USA_Checkout_Sample_CartSpecial"/>
+          <include name="EGC_Checkout"/>
+          <include name="Guest_KUWAIT_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_SAUDIARABIA_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_MALAYSIA_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_UNITEDKINGDOM_Checkout_Sample_CartSpecial"/>
+          <include name="Guest_AUSTRALIA_Checkout_Sample_CartSpecial"/>
+        </methods>
+      </class> <!-- com.tarte.script.Guestcheckout2$GuestTest -->
+    </classes>
+  </test> <!-- Guest Checkout with Promo 5OFF + Sample + Cart Special + EGC(failed) -->
+</suite> <!-- Failed suite [Guest Checkout,EGC Checkout] -->

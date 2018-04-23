@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+    <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+    <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name="Test 2(failed)">
+    <parameter name="DataSheetRow" value="3"/>
+    <classes>
+      <class name="RegisteredCheckoutScenarios.Locale_Kuwait">
+        <methods>
+          <include name="reg_Promo_CreditCard" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RegisteredCheckoutScenarios.Locale_Kuwait -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

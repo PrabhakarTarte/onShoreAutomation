@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  </listeners>
+  
+  <!--  <test name="Test 1">
+        <classes>
+            <class name="BusinessTestRuns.RegisteredUserCheckoutScenario"></class>
+        </classes>
+    </test>
+   -->
+   
+   
+    <test name="Test 2">
+    <parameter name="DataSheetRow" value="3"/>
+        <classes>
+            <class name="RegisteredCheckoutScenarios.Locale_Kuwait"></class>
+            <class name="RegisteredCheckoutScenarios.Locale_USA"></class>
+            <class name="RegisteredCheckoutScenarios.Locale_Germany"></class>
+            <class name="RegisteredCheckoutScenarios.Locale_Australia"></class>
+            <class name="RegisteredCheckoutScenarios.Locale_UnitedArabEmirates"></class>
+         
+        </classes>
+        
+        
+        
+        
+    </test>
+  
+  
+ <!--  <test  name="Test">
+    <classes>
+     
+      <class name="tarte.tests.TestATU"/>
+       <class name="tarte.tests.TC01"/>
+      <class name="BusinessTestRuns.RegisteredUserCheckoutScenario"/>
+    </classes>
+  </test>  -->
+  
+ 
+    
+</suite> <!-- Suite -->

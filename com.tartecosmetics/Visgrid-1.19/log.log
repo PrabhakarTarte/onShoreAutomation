@@ -1,0 +1,2 @@
+2017-12-16 00:35:06 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://192.168.1.43:5560: Socket operation on nonsocket: configureBlocking
+2017-12-16 00:35:06 INFO  RetryExec:112 - Retrying request to {}->http://192.168.1.43:5560
